@@ -1,0 +1,45 @@
+.banner{
+    background: url("https://a0.muscache.com/im/pictures/miso/Hosting-52248610/original/f1a2dac7-d8c9-49d1-b8e5-6fdb41be946a.jpeg?im_w=720");
+    height:500px;
+    position:relative;
+    margin-top:0;
+}
+.banner_info{
+    background-color: black;
+    color:white;
+    padding:25vh 50px 50px 45px;    
+    width:300px;
+    max-height:inherit;
+    overflow:inherit;
+    min-height:257px;
+}
+.banner_info button{
+background-color: #ff7779;
+color:white;
+text-transform: inherit;
+border:none;
+padding:10px;
+border-radius: 20px;
+}
+.bannerbutton:hover{
+    background-color: white;
+    color:#ff7779;
+    cursor:pointer;
+}
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+.bannersearchbtn{
+    background-color: white;
+    font-weight: 900 !important;
+    text-transform: inherit;
+    color:#ff7779;
+    border:none;
+    padding:5px;
+   
+}.bannersearchbtn:hover{
+    background-color: #ff7779;
+    color:white;
+    cursor:pointer;
+}

@@ -1,0 +1,25 @@
+.searchResult{
+    display:flex;
+    position :relative;
+    margin:20px;
+    padding:20px;
+    border-bottom:1px solid lightgray;
+    opacity:1;
+    cursor:pointer;
+}
+.searchResult>img{
+    border-radius: 10px;
+    height:200px;
+    width:350px;
+    overflow:hidden;
+}
+.searchresultinfo{
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.searchResult:hover{
+    opacity:0.8;
+    background-color:	#F0F0F0;
+}
